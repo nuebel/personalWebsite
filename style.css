@@ -1,0 +1,133 @@
+body {
+    background-color: #5CDB95;
+    color: #edf5d1;
+	font-family: Calibri, "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 150%;
+	margin: 20px;
+    padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #379683;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+dd {
+    font-weight: bold;
+}
+
+h1 {
+    border: 4px solid #8ee4af;
+    color: #05386b;
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: center;
+    font-variant: small-caps;
+    margin-top: 0px;
+}
+
+h2 {
+    border: 2px solid #8ee4af;
+    color: #05386b;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    font-variant: small-caps;
+    margin-block-start: 0px; 
+}
+
+h3 {
+    color: #05386b;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: left;
+    font-variant: small-caps; 
+}
+
+#topBanner {
+    margin: auto;
+    width: 50%;
+}
+
+#rightContent {
+    float: right;
+    width: 20%;
+    margin-right: 5%;
+}
+
+#picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#picture img {
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactInfo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#contactInfo dl {
+    text-align: center;
+    font-weight: bold;
+}
+
+#contactInfo dd {
+    margin-left: 0px;
+    padding-bottom: 30px;
+    font-weight: normal;
+}
+
+#leftContent {
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 65%;
+}
+
+.leftBlock {
+    font-size: 80%;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    #topBanner {
+        width: 80%;
+    }
+
+    #rightContent {
+        width: 80%;
+        text-align: center;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ 
+    #leftContent {
+      width: 80%;
+      text-align: center;
+      float: none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+  }
+
