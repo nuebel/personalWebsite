@@ -1,5 +1,5 @@
 body {
-    background-color: #5CDB95;
+    background-color: #105130;
     color: #edf5d1;
 	font-family: Calibri, "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-size: 150%;
@@ -9,7 +9,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: #379683;
+	color: #B1ECC8;
 }
 
 a:hover {
@@ -21,8 +21,8 @@ dd {
 }
 
 h1 {
-    border: 4px solid #8ee4af;
-    color: #05386b;
+    border: 4px solid #B1ECC8;
+    color: #C4E5FD;
     font-size: 3em;
     font-weight: bolder;
     text-align: center;
@@ -31,8 +31,8 @@ h1 {
 }
 
 h2 {
-    border: 2px solid #8ee4af;
-    color: #05386b;
+    border: 2px solid #B1ECC8;
+    color: #C4E5FD;
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-    color: #05386b;
+    color: #C4E5FD;
     font-size: 1.25em;
     font-weight: bold;
     text-align: left;
